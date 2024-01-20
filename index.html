@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme=none>
+
+<head>
+    <meta charset="utf-8">
+    <meta http - equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://successful.vzy.io">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://successful.vzy.io">
+    <meta property="twitter:title" content="">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+
+    <link rel="icon" type="image/svg" href="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <link rel="stylesheet" type="text/css" href="https://app.vzy.co/assets/css/vzy_v1.css">
+    <link rel="mask-icon" href="https://app.vzy.co/assets/icons/favicon.svg" color="#808080">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style lang="css">
+		#preloader{
+			display: flex;justify-content:center;align-items:center; flex-direction:column;
+			height:100vh;width: 100vw;
+			position: fixed; z-index: 100;top: 0px;left: 0px;
+			background: var(--background);
+			opacity: 1;
+            text-align:center;
+            padding:50px;
+		}
+		#preloader.done{
+			opacity: 0;
+			transition: 1s ease;
+		}
+        @font-face {
+            font-family: "Inter Bold";
+            src: url("https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf");
+        }
+        @font-face {
+            font-family: "Inter regular";
+            src: url("https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZhrib2Bg-4.ttf");
+        }
+	</style>
+
+    <script>
+    var currentURL = window.location.href;
+    var targetDomain = "undefined";
+    // console.log('undefined', 'currentUrl: ', currentURL, 'targetDomain: ', targetDomain, !currentURL.includes(targetDomain))
+    if ('undefined' && targetDomain !== 'undefined' && !currentURL.includes(targetDomain)) {
+        if (!targetDomain.startsWith("https://")) {
+            targetDomain = "https://" + targetDomain;
+        }
+
+        var currentRoute = window.location.pathname;
+// console.log(currentRoute.length);
+        if (currentRoute.length > 0) {
+            var newURL = targetDomain + currentRoute;
+            // console.log(newURL);
+            window.location.replace(newURL);
+        }
+    }
+    </script>
+
+    
+    </head>
+
+<body>
+    <!--Container -->
+    <div class="container">
+<!--[--><!--[--><div id="preloader"><!----><!--[--><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705788438432_image_search_1705788424405.jpg" style="height: var(--logo-height)" alt="website logo" class="site-logo light"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705788438432_image_search_1705788424405.jpg" style="height: var(--logo-height)" alt="website logo" class="site-logo dark"><!--]--></div><!--]--><div class="navbar-box fixed shadow w-fit" style="--logo-height:20px;"><div class="navbar header-box"><!----><div class="header-1 w-boxed"><div class="desktop-nav"><header><nav><div class="icon-link"><a href="/" class="logo"><!--[--><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705788438432_image_search_1705788424405.jpg" style="height: 20px" alt="website logo" class="site-logo light"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705788438432_image_search_1705788424405.jpg" style="height: 20px" alt="website logo" class="site-logo dark"><!--]--><!----></a><!----></div><ul class="nav__list"><!--[--><!--]--></ul></nav><div class="button-holder"><!----><a id="btn-2" href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://open.opayweb.com/&amp;ved=2ahUKEwjP8cvOhu2DAxUkmIkEHbJ1BygQjBB6BAgFEAY&amp;usg=AOvVaw1CER2jS2iF2muUhEveaeyH" target="_blank"><button class="site-btn t-1 shape">Login</button></a><ul class="theme-button"><li class="dark-mode" style="display:none;"><a href="javascript:void(0)" name="dark-theme"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.958 2.34399C14.6372 5.52163 14.103 9.4162 11.6303 12.0244C9.1576 14.6326 5.29704 15.3735 2.03442 13.8661C2.83817 19.0086 7.44338 22.6807 12.6357 22.3195C17.828 21.9583 21.8804 17.6838 21.9644 12.4797C22.0483 7.27549 18.136 2.87253 12.958 2.34399Z" stroke="var(--foreground)" stroke-linecap="square"></path></svg></a></li><li class="light-mode" style="display:none;"><a href="javascript:void(0)" name="light-theme"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.51468 4.85875L6.21174 6.55581M19.7882 20.1323L21.4852 21.8293M19.7882 6.55581L21.4853 4.85875M4.51471 21.8293L6.21177 20.1322M13 1.34399V3.744M13 22.944L13 25.344M22.6 13.344L25 13.344M1 13.344H3.4" stroke="var(--foreground)" stroke-linecap="square"></path><path d="M8 13.344C8 10.5826 10.2386 8.34399 13 8.34399C15.7614 8.34399 18 10.5826 18 13.344C18 16.1054 15.7614 18.344 13 18.344C10.2386 18.344 8 16.1054 8 13.344Z" stroke="var(--foreground)"></path></svg></a></li><!----></ul><!----></div></header></div></div><!----><!----><!----><div class="mobile-nav" style="--logo-height:20px;"><header><div class="icon-link"><a href="/" class="logo t-3"><!--[--><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705788438432_image_search_1705788424405.jpg" alt="website logo" class="site-logo light"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705788438432_image_search_1705788424405.jpg" alt="website logo" class="site-logo dark"><!--]--><!----></a><!----></div><div class="show-theme-btn menu-icon"><ul class="theme-button"><li class="dark-mode" style="display:none;"><a href="javascript:void(0)" name="dark-theme"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.958 2.34399C14.6372 5.52163 14.103 9.4162 11.6303 12.0244C9.1576 14.6326 5.29704 15.3735 2.03442 13.8661C2.83817 19.0086 7.44338 22.6807 12.6357 22.3195C17.828 21.9583 21.8804 17.6838 21.9644 12.4797C22.0483 7.27549 18.136 2.87253 12.958 2.34399Z" stroke="var(--foreground)" stroke-linecap="square"></path></svg></a></li><li class="light-mode" style="display:none;"><a href="javascript:void(0)" name="light-theme"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.51468 4.85875L6.21174 6.55581M19.7882 20.1323L21.4852 21.8293M19.7882 6.55581L21.4853 4.85875M4.51471 21.8293L6.21177 20.1322M13 1.34399V3.744M13 22.944L13 25.344M22.6 13.344L25 13.344M1 13.344H3.4" stroke="var(--foreground)" stroke-linecap="square"></path><path d="M8 13.344C8 10.5826 10.2386 8.34399 13 8.34399C15.7614 8.34399 18 10.5826 18 13.344C18 16.1054 15.7614 18.344 13 18.344C10.2386 18.344 8 16.1054 8 13.344Z" stroke="var(--foreground)"></path></svg></a></li></ul><!----><!----><div class="site-menu-icon-container"><span class="site-menu-icon icon-3"></span></div></div></header><div class="mobile-nav-overlay bordered"><div class="header-nav"><nav><ul><!--[--><!--]--></ul></nav><div class="button-holder"><!----><a id="btn-2" href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://open.opayweb.com/&amp;ved=2ahUKEwjP8cvOhu2DAxUkmIkEHbJ1BygQjBB6BAgFEAY&amp;usg=AOvVaw1CER2jS2iF2muUhEveaeyH" target="_blank"><button class="site-btn t-1 shape">Login</button></a><!----></div></div></div></div></div></div><div class="spacer"></div><!--]--><div class="banner-box new box section-bg-wrapper
+    center   section-width-fill
+                       image-selected" id="registration-successful--1"><section class="section-content"><div class="banner-box section-bg-wrapper  transparent	media  image-selected" style="--bg-opacity:1;--bg-blur:0px;--bg-blurscale:1.1;--bg-grayscale:0%;--bg-image:url( https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789201084_20240120_231024.jpg);--background-upper:center;--background-bottom:center;--spacingTB:calc(var(--unit) * 8);--spacingLR:calc(var(--unit) * 8);"><div class="inner-content section-container"><!----><!----><div class="banner-layout-2 w-boxed"><div class="banner section-component"><div class="light-color banner-text content-heading" style="text-align: center; "><section class="subtitle-width-size" data-size="50" style=""><!----><h1 class="t-6 title pre-line">Registration successful </h1></section><section class="subtitle-width-size" data-size="50" style=""><p class="t-2 pre-line subtitle-width-size subtitle" data-size="50" style="width:50%"></p><!----><!----></section></div><!--[--><div class="avatar-image" id="banner-image_1" style="text-align:inherit;"><!----><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789491088_image_search_1705788539832.gif" class="Fill accent banner-image" style="height:150px;width:150px;"><!----><!----></div><!--]--></div></div><!----><!----><!----><!----><!----><span id="successMessage" style="display:none;">Thank you! Your submission has been received</span></div></div></section><!----><!----></div><!--[--><div class="gallery-box box  transparent media  image-selected light-color" style="--bg-opacity:undefined;--bg-blur:0px;--bg-blurscale:1;--bg-grayscale:0%;--bg-image:url( https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789201084_20240120_231024.jpg);--background-upper:center;--background-bottom:center;" id="gallery"><div style="--image-height:300px;--image-height-mobile:250px;" class="inner-content"><!----><div style="--grid-height:250px;--grid-height-mobile:100px;--grid-width:100px;--grid-width-mobile:200px;--grid-count:1;--grid-count-mobile:3;" class="gallery-container w-boxed"><!----><div class="gallery-container__wrapper"><!----><div class="gallery-container__items"><!--[--><div class="gallery-container__item" style="position:relative;"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789701876_image_search_1705789640905.jpg" alt=""><!----></div><div class="gallery-container__item" style="position:relative;"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789757278_image_search_1705789739421.jpg" alt=""><!----></div><div class="gallery-container__item" style="position:relative;"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789782505_image_search_1705789660932.jpg" alt=""><!----></div><!--]--></div></div></div><!----></div></div><div class="gallery-viewer"><div class="gallery-viewer__controllers"><div class="controllers__left"></div><div class="controllers__right"></div><div class="controllers__bottom"></div></div><div class="gallery-viewer__top"><div class="top__indexer"><div class="indexer__counter"><div class="counter__strip"><!--[--><span>1</span><span>2</span><span>3</span><!--]--></div><span class="counter__filler">5</span></div> / <div class="indexer__total">3</div></div><button class="top__close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none"><path d="M19 5.66016L5 19.6602M5 5.66016L19 19.6602" stroke="var(--foreground)"></path></svg></button></div><!--[--><div class="gallery-viewer__image"><div class="image__container"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789701876_image_search_1705789640905.jpg" alt=""></div></div><div class="gallery-viewer__image"><div class="image__container"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789757278_image_search_1705789739421.jpg" alt=""></div></div><div class="gallery-viewer__image"><div class="image__container"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789782505_image_search_1705789660932.jpg" alt=""></div></div><!--]--><div class="gallery-viewer__bottom"><!--[--><div class="bottom__thumbnail"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789701876_image_search_1705789640905.jpg" alt=""></div><div class="bottom__thumbnail"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789757278_image_search_1705789739421.jpg" alt=""></div><div class="bottom__thumbnail"><img src="https://sitefile.co/65ac43b5e6e29846a8c0fc65/1705789782505_image_search_1705789660932.jpg" alt=""></div><!--]--></div></div><svg style="display:none;"><symbol xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none"><path d="M12 4.66016L20 12.6602M20 12.6602L12 20.6602M20 12.6602H4" stroke="#111111" stroke-miterlimit="10" stroke-linecap="square"></path></symbol></svg><!--]--><!--[--><div class="footer-1 box v_2-footer" style="--logo-height:20px;"><div class="footer-card w-boxed"><div class="footer-top"><div class="footer-top__nav-container"><!----><!----></div><div class="footer-top__content-container"><!----><!----><div class="footer-buttons__holder v_2-footer" style=""><!----><!----><!----></div></div></div><div class="footer-bottom" style="position:relative;"><div class="footer-bottom-left tip-tap-content__output"><p class="footer-bottom-left__content" style="color:var(--c-mix-3);"></p></div><!----><!----><!----><!----></div></div><svg style="display:none;"><symbol id="plus" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19" stroke="var(--foreground)"></path><path d="M5 12H19" stroke="var(--foreground)"></path></symbol></svg></div><!----><!----><!--]--><div
+    style="
+        background: var(--foreground);
+        padding: 8px 12px;
+        width: auto;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        z-index: 99999;
+    "
+>
+   
+</div>
+  <style>
+  :root {
+    --sublinks-shape: var(--min-shape);
+    --logo-height: 50px;
+    --logo-height-mobile: 20px;
+    --site-width: 1000px;
+    --accent: var(--foreground);
+    --shape: var(--r-small);
+    --min-shape: var(--min-r-small);
+    --design-headFont: 'Inter Bold';
+    --design-headWeight: 100;
+    --design-bodyFont: 'Inter regular';
+    }
+    button{
+      background:var(--foreground)!important;
+    }
+    h1:not(.block-card), h2:not(.block-card), h3:not(.block-card), .mobile-nav-overlay .link__a, a.logo span, #preloader span, .billing-price .amount, .head-font {
+      font-family:'Inter Bold'!important;
+      font-weight:100!important;
+    }
+    p:not(.block-card),input,input::placeholder, .share-box-content, .mobile-nav-overlay a, textarea, h3.t-1.small-size, .display-options .display-style li, .pricing-benefits li, .price-title span, .body-font {
+      font-family:'Inter regular'!important;
+    }
+    header>nav>ul>li>a, button, .page-list, .navbar-box .sub-link{
+      font-family:'Inter regular'!important;
+    }
+    .footer-card ul>li>a, .footer-card .footer-bottom>.footer-bottom-right>a, .announcement-bar-block > a{
+      font-family:'Inter regular'!important;
+    }
+    button,  .pricing-box .pricing-container-small .pricing-section > .tier.popular-price > .pricing-details > a button{
+      color:var(--background)!important;
+    }
+
+    h1{
+      letter-spacing:-0.04em!important;
+    }
+    h2{
+      letter-spacing:-0.02666666666666667em!important;
+    }
+    h3{
+      letter-spacing:-0.02em!important;
+    }
+    .logo-text {
+      letter-spacing: -0.04em !important;
+    }
+    @media screen and (min-width: 1200px) {
+      .w-boxed{
+        max-width:1000px!important;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .w-boxed{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+</style>
+
+		    <p id="siteUrl" data-siteUrl="65ac43b5e6e29846a8c0fc65"></p>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/Observer.min.js"></script>
+    <script src="https://app.vzy.co/assets/js/allCountries.js" defer></script>
+    <script src="https://app.vzy.co/assets/js/vzy.js" defer></script>
+    <script src="https://app.vzy.co/assets/js/tracker.js"></script>
+    <script>
+        ackeeTracker.create('https://analytics.vzy.co',{
+            detailed: true,
+            ignoreLocalhost: true
+        }).record('5eaac3fb-2dc5-44e5-b50f-11122df755ce')
+    </script>
+    <script async src="//cdn.iframe.ly/embed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    
+</html>
